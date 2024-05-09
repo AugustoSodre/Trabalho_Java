@@ -44,9 +44,10 @@ public class PisoCEUB {
         //Calculando total de lajotas
         lajTotal = lajTipo1 + lajTipo2 + lajTipo3;
 
-        //Output
+        //Outputs
         System.out.println("Lajotas do tipo 2: " + lajTipo2);
         System.out.println("Lajotas do tipo 3: " + lajTipo3);
         System.out.println("Lajotas totais: " + lajTotal);
+        sc.close();
     }
 }

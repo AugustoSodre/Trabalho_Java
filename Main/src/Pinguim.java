@@ -60,5 +60,6 @@ public class Pinguim {
         System.out.println("Número de trocas: " + contadorTrocas);
         System.out.println("Lista de pinguins para troca: " + Arrays.toString(elementosParaTroca));
         System.out.println("Valor da venda: " + valorVenda);
+        sc.close();
     }
 }
