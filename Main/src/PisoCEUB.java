@@ -15,11 +15,7 @@ public class PisoCEUB {
 
         //Definindo a altura do pico da sala
         for (int i = 1; i < altura; i++){
-            if (altura != 1){
-                contPico += 2;
-            } else {
-                contPico = 1;
-            }
+            contPico += 2;
         }
 
         //Descobrindo o número de lajotas do tipo 1
