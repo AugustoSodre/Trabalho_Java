@@ -11,7 +11,7 @@ public class PisoCEUB {
         //Lajotas do tipo3 são constantemente 4
         //Lajotas do tipo2 caem na fórmula
         lajTipo3 = 4;
-        lajTipo2 = 2 * (altura / largura - 2);
+        lajTipo2 = 2 * (altura + largura - 2);
 
         //Definindo a altura do pico da sala
         for (int i = 1; i < altura; i++){
@@ -45,8 +45,8 @@ public class PisoCEUB {
         lajTotal = lajTipo1 + lajTipo2 + lajTipo3;
 
         //Outputs
+        System.out.println("Lajotas do tipo 1: " + lajTipo1);
         System.out.println("Lajotas do tipo 2: " + lajTipo2);
-        System.out.println("Lajotas do tipo 3: " + lajTipo3);
         System.out.println("Lajotas totais: " + lajTotal);
         sc.close();
     }
